@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #B5838D;
+}
+
+.Canva {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px rgb(222, 208, 208);
+  margin: 0;
+}
+
+.Fila {
+  display: flex;
+  flex-direction: row;
+}
+
+.Celula {
+  width: 20px;
+  height: 20px;
+  z-index: 5000;
+  border: solid 2px rgb(222, 208, 208);
+}
+
+.CelulaViva {
+  background-color: white;
+}
+
+.CelulaMuerta {
+  background-color: black;
+}
+
+.Button {
+  font-size: 1.5rem;
+  position: fixed;
+  z-index: 6000;
+  right: 10%;
+  top: 5%;
+  width: 90px;
+}
+
+.BtnPausar {
+  top: 10%;
+}
