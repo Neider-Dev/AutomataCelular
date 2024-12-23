@@ -21,7 +21,7 @@
 //   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 // ];
 
-let intervalo = 200;
+let intervalo = 100;
 
 function crearArregloInicial(Filas, Columnas) {
   let inicial = [];
@@ -35,7 +35,7 @@ function crearArregloInicial(Filas, Columnas) {
   return inicial;
 }
 
-let cells = crearArregloInicial(100, 100);
+let cells = crearArregloInicial(200, 200);
 
 function dibujarCuadricula(Filas, Columnas) {
   const canva = document.createElement('section');
